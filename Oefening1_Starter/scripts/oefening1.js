@@ -10,33 +10,38 @@ if (5) {
 // Antwoord: 
 // 
 
-// 2. Overloop alle elementen van de onderstaande array. Schrijf die elementen naar de console die van het type number zijn.
+// 2. Overloop alle elementen van de onderstaande array. 
+// Schrijf die elementen naar de console die van het type number zijn.
 // Maak gebruik van forEach.
+const vanalles = [1, 40, 'bob', [], false, 89];
 // ...
 
 // 3. Schrijf hieronder code om "Jana" op te zoeken en te verwijderen uit de array vrienden, zodat de array
 // vrienden er nadien als volgt uitziet: ["Tom", "Stijn", "Emma", "Eva"]
+let vrienden = ['Tom', 'Stijn', 'Jana', 'Emma', 'Eva'];
 // ...
 console.log(vrienden);
 
 // 4. Zet onderstaande code uit commentaar
-// en vervang ... door iets anders.
+// en vervang ??? door de gepaste uitdrukking zodat het resultaat in de console 1 en 4 is.
 
-// function display(a, ... ){
+// function display(a, ??? ){
 //     console.log(a);     // 1
 //     console.log(b[2]);  // 4
 // }
 
 // display(1,2,3,4);
 
-// 5. Zet onderstaande code uit commentaar en los de fout op.
+// 5. Zet onderstaande code uit commentaar. Deze code geeft een fout als ze uitgevoerd wordt. 
+// Los deze fout op. De lijnen verwijderen is geen goede oplossing.
 
 // let myStudent = new Student();
 // class Student{}
 
-// 6. Schrijf een klasse Werknemer. Een werknemer heeft een naam, een aantalDagenVakantie en een aantalDagenVakantieOpgenomen.
-// Voeg een methode aantalDagenVakantieResterend toe aan de klasse die het aantal resterende vakantiedagen retourneert.
-// Creëer een object werknemer en test de methode uit door de resultaatwaarde van de methode in de console af te beelden.
+// 6. Een werknemer heeft een naam, een aantalDagenVakantie en een aantalDagenVakantieOpgenomen.
+// Schrijf een klasse Werknemer en voorzie getters en setters voor naam, aantalDagenVakantie en aantalDagenVakantieOpgenomen.
+// Voeg tevens een methode aantalDagenVakantieResterend toe aan de klasse die het aantal resterende vakantiedagen retourneert.
+// Creëer een object werknemer en test de methode uit door de resultaatwaarde van de methode in de console weg te schrijven.
 
 // ...
 console.log(werknemer.aantalDagenVakantieResterend());
@@ -52,20 +57,23 @@ const roos = {
 // ...
 console.log(roos);
 
-// 8. Ken een anonieme functie toe aan een variabele genaamd geefHoofdletter.
-// De anonieme functie heeft twee parameters genaamd tekst en positie
+// 8. Declareer een variabele geefHoofdLetter die een functie als waarde heeft. Deze functie 
+// heeft twee parameters genaamd tekst en positie
 // en retourneert de uppercase van de letter op de gevraagde positie in de tekst.
+// Voor de positie begin je niet te tellen vanaf 0, maar vanaf 1.
 // Test de functie uit, door het console.log-statement uit commentaar te zetten.
+
 // ...
 // console.log(geefHoofdletter('abc', 2)); // B
 
-// 9. Maak de som van de getallen op de even posities in de array.
+// 9. Maak de som van de getallen op de even posities in de array. Ook hier moet je beginnen 
+// tellen vanaf 1.
 const myArray = [3, 2, 11, 3, 3, 1];
 // ...
 console.log(somGetallen); //6
 
 // 10. Tel het aantal paragrafen in index.html waarbij de paragraaftekst
-// de letters 'de' bevat en beeld het aantal af in de console.
+// de letters 'de' bevat en schrijf het aantal naar de console.
 
 // ...
 console.log(aantal); // 3
@@ -74,8 +82,8 @@ console.log(aantal); // 3
 // door 'Laatste paragraaf'.
 
 // ...
-lastParagraph.innerHTML = 'Laatste paragraaf';
+laatsteParagraaf.innerHTML = 'Laatste paragraaf';
 
-// 12. Beeld de resolvevalue van onderstaande promise af in de console.
+// 12. Schrijf de resolvevalue van onderstaande promise naar de console.
 const promise = fetch('resultaat.txt').then((response)=>response.text());
 // ...
