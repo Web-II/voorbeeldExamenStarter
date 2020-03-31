@@ -57,7 +57,7 @@ const roos = {
 // ...
 console.log(roos);
 
-// 8. Declareer een variabele geefHoofdLetter die een functie als waarde heeft. Deze functie 
+// 8. Declareer een variabele geefHoofdletter die een functie als waarde heeft. Deze functie 
 // heeft twee parameters genaamd tekst en positie
 // en retourneert de uppercase van de letter op de gevraagde positie in de tekst.
 // Voor de positie begin je niet te tellen vanaf 0, maar vanaf 1.
