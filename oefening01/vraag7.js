@@ -13,7 +13,7 @@
  */
 
 const landen = [
-    { land: 'Franrijk', grootte: 'Groot' },
+    { land: 'Frankrijk', grootte: 'Groot' },
     { land: 'Zweden', grootte: 'Groot' },
     { land: 'Spanje', grootte: 'Groot' },
     { land: 'Duitsland', grootte: 'Groot' },
