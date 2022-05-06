@@ -1,18 +1,13 @@
+'use strict';
 /**
- * Vraag 2
- * Verwijder uit onderstaande array uit de tweede subarray het tweede element.
- * De array groepen moet er dus uiteindelijk als volgt uitzien:
- * [
- *   ['jan', 'piet'],
- *   ['ann', 'carine'],
- *  ]
- */
+ * ===== Vraag 2 =====
+ * Declareer en initialiseer een variabele genaamd arrayOfTypes.
+ * De array arrayOfTypes moet alle unieke types (in string vorm) bevatten van de elementen uit mySet.
+ **/
 
-const groepen = [
-    ['jan', 'piet'],
-    ['ann', 'griet', 'carine'],
-];
+const mySet = new Set([10, 'abc', undefined, { a: 10 }, 20, 'def']);
 
+/* Oplossing */
 
-
-console.log(groepen);
+/* Voorbeeld uitvoer */
+console.log(arrayOfTypes.join(' - ')); // number - string - undefined - object
