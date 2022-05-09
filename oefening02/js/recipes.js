@@ -1,8 +1,8 @@
 /* oefening02
 ----------
-  In deze oefening moet je op basis van de array this._recipes (zie onderstaande programmacode)
+  In deze oefening moet je op basis van de array this.#recipes (zie onderstaande programmacode)
   de webpagina dynamisch aanpassen, zodat als we bijvoorbeeld nog een zesde recept willen toevoegen 
-  aan de webpagina het volstaat om een element met een object (recipe) toe te voegen aan de array this._recipes.
+  aan de webpagina het volstaat om een element met een object (recipe) toe te voegen aan de array this.#recipes.
   
   Het bestand oefening02.gif bevat een animatie van de te bekomen webpagina.
   

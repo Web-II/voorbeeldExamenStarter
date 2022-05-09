@@ -1,8 +1,8 @@
 /**
  * ===== Vraag 5 =====
  * Schrijf een klasse EStep die volgende private properties heeft:
- * - _topSpeed: een getal die de maximale snelheid in km/u voorstelt
- * - _tireType: een string die de bandensoort voorstelt
+ * - #topSpeed: een getal die de maximale snelheid in km/u voorstelt
+ * - #tireType: een string die de bandensoort voorstelt
  *
  * Voorzie voor beide properties een getter en voor de property _tireType een setter. Volgende
  * domeinregel moet gerespecteerd worden. Indien niet aan deze domeinregel is voldaan wordt een
@@ -28,7 +28,7 @@
 /* Oplossing */
 
 /* Voorbeeld uitvoer */
-const myFirstStep = new EStep(20, 'Solid');
+const myFirstStep = new EStep(20, "Solid");
 console.log(myFirstStep.toString()); // Top speed of 20 km/h and solid tires
 const myOtherStep = new EStep(30);
 console.log(myOtherStep.toString()); // Top speed of 30 km/h and pneumatic tires
