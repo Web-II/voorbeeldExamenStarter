@@ -109,7 +109,7 @@ class BreedRepository {
 class CatsComponent {
   #breedRepository;
   constructor() {
-    this.#breedsRepository = new BreedRepository();
+    this.#breedRepository = new BreedRepository();
     this.getData();
   }
 
