@@ -4,7 +4,7 @@
  * - #topSpeed: een getal die de maximale snelheid in km/u voorstelt
  * - #tireType: een string die de bandensoort voorstelt
  *
- * Voorzie voor beide properties een getter en voor de property _tireType een setter. Volgende
+ * Voorzie voor beide properties een getter en voor de property #tireType een setter. Volgende
  * domeinregel moet gerespecteerd worden. Indien niet aan deze domeinregel is voldaan wordt een
  * Error met een gepaste boodschap geworpen.
  *  - tireType kan enkel de waarden 'pneumatic', 'solid' of 'honeycomb' aannemen,
